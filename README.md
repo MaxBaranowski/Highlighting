@@ -6,6 +6,11 @@ Highlighting DOM elements on scrolling
 var mapHighlighting = new MapHighlight()
 mapHighlighting.start();
 ```
+If new element was added to DOM or removed, this.sectionsPositions should be updated, so:
+```javascript
+mapHighlighting.start(); //works as update 
+```
+
 ## Commands
 
 #### Get Sections
