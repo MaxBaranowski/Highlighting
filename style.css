@@ -1,8 +1,64 @@
-.highlight{
-    color: #36a30f;
-    border-bottom: 1px solid #36a30f;
-    transition: all .1s;
-    -webkit-transition: all .1s;
-    -moz-transition: all .1s;
-    -o-transition: all .1s;
+.box {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.one {
+  height: 400px;
+  background: lightgreen;
+}
+
+.two {
+  height: 200px;
+  background: lightcoral;
+}
+
+.three {
+  height: 600px;
+  background: lightblue;
+}
+
+.end {
+  height: 1000px;
+  background: repeating-linear-gradient( -55deg, #222, #222 10px, #333 10px, #333 20px);
+}
+
+#map {
+  font-size: 12px;
+  width: 70px;
+  padding: 10px;
+  display: block;
+  position: fixed;
+  /* top:20px; */
+  top: 50px;
+  right: 50px;
+  /*border-radius: 5px;*/
+  border: 1px solid #fff;
+  background: #fff;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  transition: top .5s;
+  -webkit-transition: top .5s;
+  -moz-transition: top .1s;
+  -o-transition: top .1s;
+}
+
+#map span {
+  cursor: pointer;
+}
+
+#map li,
+#map ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0;
+}
+
+.highlight {
+  color: #36a30f;
+  border-bottom: 1px solid #36a30f;
+  transition: all .1s;
+  -webkit-transition: all .1s;
+  -moz-transition: all .1s;
+  -o-transition: all .1s;
 }
