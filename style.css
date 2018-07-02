@@ -1,0 +1,8 @@
+.highlight{
+    color: #36a30f;
+    border-bottom: 1px solid #36a30f;
+    transition: all .1s;
+    -webkit-transition: all .1s;
+    -moz-transition: all .1s;
+    -o-transition: all .1s;
+}
